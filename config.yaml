@@ -1,0 +1,23 @@
+# ---- User Settings ----
+watchlist:
+  - RELIANCE.NS
+  - TCS.NS
+  - HDFCBANK.NS
+  - INFY.NS
+  - ITC.NS
+  - LT.NS
+
+index_tickers:
+  nifty: "^NSEI"       # Nifty 50 (may vary regionally on Yahoo)
+  banknifty: "^NSEBANK"
+
+data:
+  lookback_days: 365
+  interval: "1d"
+
+report:
+  out_dir: "reports"
+  top_n: 10
+
+dashboard:
+  default_ticker: "RELIANCE.NS"
